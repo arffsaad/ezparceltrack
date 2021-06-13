@@ -6,3 +6,5 @@ Runs perfectly on python3.9.5. By right it should run well on python3.x.
 
 Pre-requisites:
 - requests-html module
+
+NINJAVAN DOES NOT WORK, due to the connection between tracking.my and ninjavan is not working.
