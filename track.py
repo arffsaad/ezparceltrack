@@ -19,12 +19,8 @@ stat = stat.text.split("\n")
 stat = stat[0].replace(" ","")
 
 if (stat == "pending"):
-    sleep(0.3)
-    print(".", end="")
-    sleep(0.3)
-    print(".", end="")
-    sleep(0.3)
-    print(".", end="")
+    print("Parcel Not Found!", end="")
+    sleep(0.5)
 else:
     statsel = "#tracking > div.text-center.tracking-status-" + stat
     status = resp.html.find(statsel, first=True)
